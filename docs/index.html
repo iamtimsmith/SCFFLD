@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta description="SCFFLD is a simple framework designed to be easy to learn and make your life easier when building a website.">
+  <meta keywords="SCFFLD, framework, CSS, grid, scaffold, Web design">
+  <title>SCFFLD</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
+  <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+  
+   <div class="header box-container" id="top">
+        <h1>scffld</h1>
+        <h4>A mobile first css framework</h4>
+        <p>SCFFLD is a simple framework designed to be easy to learn and make your life easier when building a website. It uses a grid like many other frameworks, but with a few differences. The first is the divisions. Other frameworks have 12 columns which make it really nice for things that are divided into thirds or fourths, but what about fifths? SCFFLD runs off of percentages rather than established columns. The other big difference is the classes. Other frameworks have several classes to learn before you can really use it. Everything has a seperate class which can make it confusing to learn. To make things easier when getting started, there are really only a few classes that you need to learn to get your site up and running.</p><br>
+        <a href="https://github.com/iamtimsmith/SCFFLD" class="button d-10-80 s-25-50">Download</a>
+   </div>
+   <br>
+   <div class="nav">
+       <div class="box menu big">
+           <ul>
+              <li><a href="#top">SCFFLD</a></li>
+              <li><a href="#breakpoints">Breakpoints</a></li>
+              <li><a href="#box-class">The Box</a></li>
+              <li><a href="#grid">Grid</a></li>
+              <li><a href="#offset">Offset</a></li>
+              <li><a href="#multiple">Multiple Classes</a></li>
+              <li><a href="#text-styles">Styles</a></li>
+              <li><a href="#input">Inputs</a></li>
+              <li><a href="#download">Download</a></li>
+          </ul>
+       </div>
+   </div>
+   <div class="box mobile">
+       <ul>
+          <li><a href="#breakpoints">Breakpoints</a></li>
+          <li><a href="#box-class">The Box</a></li>
+          <li><a href="#grid">Grid</a></li>
+          <li><a href="#offset">Offset</a></li>
+          <li><a href="#multiple">Multiple Classes</a></li>
+          <li><a href="#text-styles">Styles</a></li>
+          <li><a href="#input">Inputs</a></li>
+      </ul>
+   </div>
+   
+   <div class="box-container" id="breakpoints">
+       <h4 class="title">Breakpoints</h4>
+       <p class="desc">SCFFLD uses four different breakpoints. These breakpoints are called Diminuitive, Small, Medium, and Large. The screen size for each of these breakpoints is listed below.</p>
+       <p class="code">The Code:</p>
+       <pre>
+          &nbsp;
+           // Diminuitive
+           /* This styles from this class apply
+            * to all breakpoints starting
+            * with mobile devices
+            */
+           
+           // Small
+           @media screen and (min-width:600px) {
+               ...styles here...
+           }
+           
+           // Medium
+           @media screen and (min-width:900px) {
+               ...styles here...
+           }
+           
+           // Large
+           @media screen and (min-width:1200px) {
+               ...styles here...
+           }
+       </pre>
+   </div>
+   
+   <div class="box-container" id="box-class">
+       <h4 class="title">Box Class</h4>
+       <p class="desc">The first is the <code>.box</code> class. This class is a container for your grid that will be the full width of the screen. The contents of this box will span the full width of the screen, which is great for hero images, navigations, and other such things.</p>
+   </div>
+   <div class="box" id="box">box</div>
+   <div class="box-container">
+       <p class="code">The Code:</p>
+       <pre>
+       &nbsp;
+    &lt;div class="box"&gt;box&lt;/div&gt;
+       </pre>
+       &nbsp;
+       <p>The second class is <code>.box-container</code>. This is a container that will be full width for the diminuitive screen, and decrease as the screen gets wider. This would be good for content such as blog posts or just text that you don't want to reach from one side of the screen to the other.</p>
+   </div>
+   <div class="box-container" id="container">box-container</div>
+   <div class="box-container">
+       <p class="code">The Code:</p>
+       <pre>
+       &nbsp;
+    &lt;div class="box-container"&gt;box-container&lt;/div&gt;
+       </pre>
+   </div>
+ 
+   
+   <div class="box-container" id="grid">
+       <h4 class="title" id="grid">Basic Grid</h4>
+       <p class="desc">To make responsive design simple but effective, SCFFLD utilizes a mobile first grid. Rather than using 12 columns like most grids or frameworks, SCFFLD uses percentages which allows for any number of combinations. It also means you can make just about any division you want whether it's thirds, fourths, fifths, and so on. For the grid to work, you will need to place the grid elements inside a <code>.box</code> or <code>.box-container</code>. Within this container, everything will default to 100% width. to change this, simply apply a class for the desired breakpoint and width. For our example, we're applying classes for the diminuitive (mobile) screens. To target this screen size, your grid class will begin with the letter "d". Next we will add the percentage width we'd like to use. Our class for a 90% width container on a diminuitive (mobile) screen should look like this: <code>.d-90</code></p>
+        <div class="d-100">d-100</div>
+        <div class="d-10">d-10</div>
+        <div class="d-90">d-90</div>
+        <div class="d-20">d-20</div>
+        <div class="d-80">d-80</div>
+        <div class="d-30">d-30</div>
+        <div class="d-70">d-70</div>
+        <div class="d-40">d-40</div>
+        <div class="d-60">d-60</div>
+        <div class="d-50">d-50</div>
+        <div class="d-50">d-50</div>
+        <div class="d-60">d-60</div>
+        <div class="d-40">d-40</div>
+        <div class="d-70">d-70</div>
+        <div class="d-30">d-30</div>
+        <div class="d-80">d-80</div>
+        <div class="d-20">d-20</div>
+        <div class="d-90">d-90</div>
+        <div class="d-10">d-10</div>
+        <div class="d-100">d-100</div>
+        <div class="d-25">d-25</div>
+        <div class="d-50">d-50</div>
+        <div class="d-25">d-25</div>
+        <div class="d-33">d-33</div>
+        <div class="d-33">d-33</div>
+        <div class="d-33">d-33</div>
+        <p class="code">The Code:</p>
+        <pre>
+        &nbsp;
+    &lt;div class="box"&gt;
+        &lt;div class="d-100"&gt;d-100&lt;/div&gt;
+        &lt;div class="d-10"&gt;d-10&lt;/div&gt;
+        &lt;div class="d-90"&gt;d-90&lt;/div&gt;
+        &lt;div class="d-20"&gt;d-20&lt;/div&gt;
+        &lt;div class="d-80"&gt;d-80&lt;/div&gt;
+        &lt;div class="d-30"&gt;d-30&lt;/div&gt;
+        &lt;div class="d-70"&gt;d-70&lt;/div&gt;
+        &lt;div class="d-40"&gt;d-40&lt;/div&gt;
+        &lt;div class="d-60"&gt;d-60&lt;/div&gt;
+        &lt;div class="d-50"&gt;d-50&lt;/div&gt;
+        &lt;div class="d-50"&gt;d-50&lt;/div&gt;
+        &lt;div class="d-60"&gt;d-60&lt;/div&gt;
+        &lt;div class="d-40"&gt;d-40&lt;/div&gt;
+        &lt;div class="d-70"&gt;d-70&lt;/div&gt;
+        &lt;div class="d-30"&gt;d-30&lt;/div&gt;
+        &lt;div class="d-80"&gt;d-80&lt;/div&gt;
+        &lt;div class="d-20"&gt;d-20&lt;/div&gt;
+        &lt;div class="d-90"&gt;d-90&lt;/div&gt;
+        &lt;div class="d-10"&gt;d-10&lt;/div&gt;
+        &lt;div class="d-100"&gt;d-100&lt;/div&gt;
+        &lt;div class="d-25"&gt;d-25&lt;/div&gt;
+        &lt;div class="d-50"&gt;d-50&lt;/div&gt;
+        &lt;div class="d-25"&gt;d-25&lt;/div&gt;
+        &lt;div class="d-33"&gt;d-33&lt;/div&gt;
+        &lt;div class="d-33"&gt;d-33&lt;/div&gt;
+        &lt;div class="d-33"&gt;d-33&lt;/div&gt;
+    &lt;/div&gt;
+        </pre>
+    </div>
+    
+    
+    <div class="box-container" id="offset">
+       <h4 class="title" id="offset">Offset Columns</h4>
+       <p class="desc">You can also use offsets with SCFFLD. To make things fast and simple, the only thing required to do this is to add a second number to the class you're already using. Just as before, we will begin our grid class with the screen size indicator. In this example, we'll be using diminuitive (mobile) screen sizes, so our class will begin with <code>.d</code>. This is also a percentage. For our example, we'll create an element that has a width of 80% with an offset of 20%. To accomplish this, we will add the amount of the offset followed by the width. Our class should now look like this: <code>.d-20-80</code>. </p>
+        <div class="d-10-90">d-10-90</div>
+        <div class="d-20-80">d-20-80</div>
+        <div class="d-25-75">d-25-75</div>
+        <div class="d-30-70">d-30-70</div>
+        <div class="d-33-66">d-33-66</div>
+        <div class="d-40-60">d-40-60</div>
+        <div class="d-50-50">d-50-50</div>
+        <div class="d-60-40">d-60-40</div>
+        <div class="d-66-33">d-66-33</div>
+        <div class="d-70-30">d-70-30</div>
+        <div class="d-75-25">d-75-25</div>
+        <div class="d-80-20">d-80-20</div>
+        <div class="d-90-10">d-90-10</div>
+        <div class="d-25-50">d-25-50</div>
+        <div class="d-25">d-25</div>
+        <p class="code">The Code:</p>
+        <pre>
+        &nbsp;
+    &lt;div class="box"&gt;
+        &lt;div class="d-10-90"&gt;d-10-90&lt;/div&gt;
+        &lt;div class="d-20-80"&gt;d-20-80&lt;/div&gt;
+        &lt;div class="d-25-75"&gt;d-25-75&lt;/div&gt;
+        &lt;div class="d-30-70"&gt;d-30-70&lt;/div&gt;
+        &lt;div class="d-33-66"&gt;d-33-66&lt;/div&gt;
+        &lt;div class="d-40-60"&gt;d-40-60&lt;/div&gt;
+        &lt;div class="d-50-50"&gt;d-50-50&lt;/div&gt;
+        &lt;div class="d-60-40"&gt;d-60-40&lt;/div&gt;
+        &lt;div class="d-66-33"&gt;d-66-33&lt;/div&gt;
+        &lt;div class="d-70-30"&gt;d-70-30&lt;/div&gt;
+        &lt;div class="d-75-25"&gt;d-75-25&lt;/div&gt;
+        &lt;div class="d-80-20"&gt;d-80-20&lt;/div&gt;
+        &lt;div class="d-90-10"&gt;d-90-10&lt;/div&gt;
+        &lt;div class="d-25-50"&gt;d-25-50&lt;/div&gt;
+        &lt;div class="d-25"&gt;d-25&lt;/div&gt;
+    &lt;/div&gt;
+        </pre>
+    </div>
+    
+    
+    <div class="box-container" id="multiple">
+       <h4 class="title" id="multiple">Multiple Classes</h4>
+       <p class="desc">With SCFFLD, you can also assign different widths and offsets for each breakpoint. It is worthwhile to note that by default each element in the <code>.box</code> element is 100%. Because of this, if an element is not given a width it will be full width. In addition since SCFFLD is a mobile first grid, the classes assigned carry over to the next breakpoint if another is not assigned. What this means is that if we look at our elements below, the have the classes <code>s-50 m-25</code>. Since there is no <code>d</code> class, all of these elements will be full with for the smallest screen size. We have widths assigned for the small and medium sized screens. We do not have any <code>l</code> classes assigned either, it will inherit the width from the last assigned class. In the example below, the last highest breakpoint with a class assigned was <code>m-25</code>. The large screen will inherit the 25% width and effectively have a <code>l-25</code> class.</p>
+       <br>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <div class="s-50 m-25">s-50 m-25</div>
+        <p class="code">The Code:</p>
+        <pre>
+        &nbsp;
+    &lt;div class="box"&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+        &lt;div class="s-50 m-25"&gt;s-50 m-25&lt;/div&gt;
+    &lt;/div&gt;
+        </pre>
+    </div>
+    
+    
+    <div class="box-container" id="text-styles">
+       <h4 class="title" id="text">Text Styles</h4>
+       <p class="p">Below are the styles used for the various headings and text displayed in a web page. These font sizes change as the screen size gets smaller to be more appropriate for each screen size. By default, SCFFLD uses the Lato font available through Google Fonts. Font sizes use an <code>rem</code> unit, so everything will be relative to a font size set at the <code>html</code> level.</p>
+       <br>
+        <h1>This is an h1</h1>
+        <h2>This is an h2</h2>
+        <h3>This is an h3</h3>
+        <h4>This is an h4</h4>
+        <h5>This is an h5</h5>
+        <p>This is a paragraph</p>
+        <a href="http://iamtimsmith.com" target="_blank">This is a link</a>
+        <p class="code">The Code:</p>
+        <pre>
+    &nbsp;
+    &lt;h1&gt;This is an h1&lt;/h1&gt;
+    &lt;h2&gt;This is an h2&lt;/h2&gt;
+    &lt;h3&gt;This is an h3&lt;/h3&gt;
+    &lt;h4&gt;This is an h4&lt;/h4&gt;
+    &lt;h5&gt;This is an h5&lt;/h5&gt;
+    &lt;p&gt;This is a paragraph&lt;/p&gt;
+    &lt;a href="http://iamtimsmith.com" target="_blank"&gt;This is a link&lt;/a&gt;
+        </pre>
+    </div>
+    
+    
+    <div class="box-container" id="input">
+       <h4 class="title" id="input">Input Styles</h4>
+       <br>
+        <form class="s-10-80 m-20-60">
+            <input type="text" placeholder="Text Box">
+            <select>
+                <option>Item One</option>
+                <option>Item Two</option>
+                <option>Item Three</option>
+                <option>Item Four</option>
+            </select>
+            <textarea></textarea>
+            <a class="button" href="#">Click Me!</a>
+        </form>
+        <p class="code">The Code:</p>
+        <pre>
+    &lt;form class="s-10-80 m-20-60"&gt;
+        &lt;input type="text" placeholder="Text Box"&gt;
+        &lt;select&gt;
+            &lt;option&gt;Item One&lt;/option&gt;
+            &lt;option&gt;Item Two&lt;/option&gt;
+            &lt;option&gt;Item Three&lt;/option&gt;
+            &lt;option&gt;Item Four&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;textarea&gt;&lt;/textarea&gt;
+        &lt;a class="button" href="#"&gt;Click Me!&lt;/a&gt;
+    &lt;/form&gt;  
+        </pre>
+    </div>
+    
+    <div class="box-container" id="download" style="min-height:50px;">
+        <h4 class="title">Download</h4>
+        <p class="desc">To download and use the framework, simply click the button below and it will take you to the repository to download.</p>
+        <a href="https://github.com/iamtimsmith/SCFFLD" class="button d-10-80 s-25-50">Download</a>
+    </div>
+
+    <div class="box-container footer">
+        <p>Made with <span class="fa fa-heart"></span> by <a href="http://iamtimsmith.com" target="_blank">Tim Smith</a></p>
+    </div>
+    
+</body>
+</html>

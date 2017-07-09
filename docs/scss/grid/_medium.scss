@@ -1,0 +1,208 @@
+@media screen and (min-width:900px) {
+// Width for all screen sizes
+
+// Widths
+.m-0 {display:none;}
+.m-10 {width:10%;}
+.m-20 {width:20%;}
+.m-25 {width:25%;}
+.m-30 {width:30%;}
+.m-33 {width:$first;}
+.m-40 {width:40%;}
+.m-50 {width:50%;}
+.m-60 {width:60%;}
+.m-66 {width:$second;}
+.m-70 {width:70%;}
+.m-75 {width:75%;}
+.m-80 {width:80%;}
+.m-90 {width:90%;}
+.m-100 {width:100%;}
+
+// Offsets
+.m-10-10 {margin-left:10%; width:10%;}
+.m-20-10 {margin-left:20%; width:10%;}
+.m-25-10 {margin-left:25%; width:10%;}
+.m-30-10 {margin-left:30%; width:10%;}
+.m-33-10 {margin-left:$first; width:10%;}
+.m-40-10 {margin-left:40%; width:10%;}
+.m-50-10 {margin-left:50%; width:10%;}
+.m-60-10 {margin-left:60%; width:10%;}
+.m-66-10 {margin-left:$second; width:10%;}
+.m-70-10 {margin-left:70%; width:10%;}
+.m-75-10 {margin-left:75%; width:10%;}
+.m-80-10 {margin-left:80%; width:10%;}
+.m-90-10 {margin-left:90%; width:10%;}
+
+.m-10-20 {margin-left:10%; width:20%;}
+.m-20-20 {margin-left:20%; width:20%;}
+.m-25-20 {margin-left:25%; width:20%;}
+.m-30-20 {margin-left:30%; width:20%;}
+.m-33-20 {margin-left:$first; width:20%;}
+.m-40-20 {margin-left:40%; width:20%;}
+.m-50-20 {margin-left:50%; width:20%;}
+.m-60-20 {margin-left:60%; width:20%;}
+.m-66-20 {margin-left:$second; width:20%;}
+.m-70-20 {margin-left:70%; width:20%;}
+.m-75-20 {margin-left:75%; width:20%;}
+.m-80-20 {margin-left:80%; width:20%;}
+.m-90-20 {margin-left:90%; width:20%;}
+
+.m-10-25 {margin-left:10%; width:25%;}
+.m-20-25 {margin-left:20%; width:25%;}
+.m-25-25 {margin-left:25%; width:25%;}
+.m-30-25 {margin-left:30%; width:25%;}
+.m-33-25 {margin-left:$first; width:25%;}
+.m-40-25 {margin-left:40%; width:25%;}
+.m-50-25 {margin-left:50%; width:25%;}
+.m-60-25 {margin-left:60%; width:25%;}
+.m-66-25 {margin-left:$second; width:25%;}
+.m-70-25 {margin-left:70%; width:25%;}
+.m-75-25 {margin-left:75%; width:25%;}
+.m-80-25 {margin-left:80%; width:25%;}
+.m-90-25 {margin-left:90%; width:25%;}
+
+.m-10-30 {margin-left:10%; width:30%;}
+.m-20-30 {margin-left:20%; width:30%;}
+.m-25-30 {margin-left:25%; width:30%;}
+.m-30-30 {margin-left:30%; width:30%;}
+.m-33-30 {margin-left:$first; width:30%;}
+.m-40-30 {margin-left:40%; width:30%;}
+.m-50-30 {margin-left:50%; width:30%;}
+.m-60-30 {margin-left:60%; width:30%;}
+.m-66-30 {margin-left:$second; width:30%;}
+.m-70-30 {margin-left:70%; width:30%;}
+.m-75-30 {margin-left:75%; width:30%;}
+.m-80-30 {margin-left:80%; width:30%;}
+.m-90-30 {margin-left:90%; width:30%;}
+
+.m-10-33 {margin-left:10%; width:$first;}
+.m-20-33 {margin-left:20%; width:$first;}
+.m-25-33 {margin-left:25%; width:$first;}
+.m-30-33 {margin-left:30%; width:$first;}
+.m-33-33 {margin-left:$first; width:$first;}
+.m-40-33 {margin-left:40%; width:$first;}
+.m-50-33 {margin-left:50%; width:$first;}
+.m-60-33 {margin-left:60%; width:$first;}
+.m-66-33 {margin-left:$second; width:$first;}
+.m-70-33 {margin-left:70%; width:$first;}
+.m-75-33 {margin-left:75%; width:$first;}
+.m-80-33 {margin-left:80%; width:$first;}
+.m-90-33 {margin-left:90%; width:$first;}
+
+.m-10-40 {margin-left:10%; width:40%;}
+.m-20-40 {margin-left:20%; width:40%;}
+.m-25-40 {margin-left:25%; width:40%;}
+.m-30-40 {margin-left:30%; width:40%;}
+.m-33-40 {margin-left:$first; width:40%;}
+.m-40-40 {margin-left:40%; width:40%;}
+.m-50-40 {margin-left:50%; width:40%;}
+.m-60-40 {margin-left:60%; width:40%;}
+.m-66-40 {margin-left:$second; width:40%;}
+.m-70-40 {margin-left:70%; width:40%;}
+.m-75-40 {margin-left:75%; width:40%;}
+.m-80-40 {margin-left:80%; width:40%;}
+.m-90-40 {margin-left:90%; width:40%;}
+
+.m-10-50 {margin-left:10%; width:50%;}
+.m-20-50 {margin-left:20%; width:50%;}
+.m-25-50 {margin-left:25%; width:50%;}
+.m-30-50 {margin-left:30%; width:50%;}
+.m-33-50 {margin-left:$first; width:50%;}
+.m-40-50 {margin-left:40%; width:50%;}
+.m-50-50 {margin-left:50%; width:50%;}
+.m-60-50 {margin-left:60%; width:50%;}
+.m-66-50 {margin-left:$second; width:50%;}
+.m-70-50 {margin-left:70%; width:50%;}
+.m-75-50 {margin-left:75%; width:50%;}
+.m-80-50 {margin-left:80%; width:50%;}
+.m-90-50 {margin-left:90%; width:50%;}
+
+.m-10-60 {margin-left:10%; width:60%;}
+.m-20-60 {margin-left:20%; width:60%;}
+.m-25-60 {margin-left:25%; width:60%;}
+.m-30-60 {margin-left:30%; width:60%;}
+.m-33-60 {margin-left:$first; width:60%;}
+.m-40-60 {margin-left:40%; width:60%;}
+.m-50-60 {margin-left:50%; width:60%;}
+.m-60-60 {margin-left:60%; width:60%;}
+.m-66-60 {margin-left:$second; width:60%;}
+.m-70-60 {margin-left:70%; width:60%;}
+.m-75-60 {margin-left:75%; width:60%;}
+.m-80-60 {margin-left:80%; width:60%;}
+.m-90-60 {margin-left:90%; width:60%;}
+
+.m-10-66 {margin-left:10%; width:$second;}
+.m-20-66 {margin-left:20%; width:$second;}
+.m-25-66 {margin-left:25%; width:$second;}
+.m-30-66 {margin-left:30%; width:$second;}
+.m-33-66 {margin-left:$first; width:$second;}
+.m-40-66 {margin-left:40%; width:$second;}
+.m-50-66 {margin-left:50%; width:$second;}
+.m-60-66 {margin-left:60%; width:$second;}
+.m-66-66 {margin-left:$second; width:$second;}
+.m-70-66 {margin-left:70%; width:$second;}
+.m-75-66 {margin-left:75%; width:$second;}
+.m-80-66 {margin-left:80%; width:$second;}
+.m-90-66 {margin-left:90%; width:$second;}
+
+.m-10-70 {margin-left:10%; width:70%;}
+.m-20-70 {margin-left:20%; width:70%;}
+.m-25-70 {margin-left:25%; width:70%;}
+.m-30-70 {margin-left:30%; width:70%;}
+.m-33-70 {margin-left:$first; width:70%;}
+.m-40-70 {margin-left:40%; width:70%;}
+.m-50-70 {margin-left:50%; width:70%;}
+.m-60-70 {margin-left:60%; width:70%;}
+.m-66-70 {margin-left:$second; width:70%;}
+.m-70-70 {margin-left:70%; width:70%;}
+.m-75-70 {margin-left:75%; width:70%;}
+.m-80-70 {margin-left:80%; width:70%;}
+.m-90-70 {margin-left:90%; width:70%;}
+
+.m-10-75 {margin-left:10%; width:75%;}
+.m-20-75 {margin-left:20%; width:75%;}
+.m-25-75 {margin-left:25%; width:75%;}
+.m-30-75 {margin-left:30%; width:75%;}
+.m-33-75 {margin-left:$first; width:75%;}
+.m-40-75 {margin-left:40%; width:75%;}
+.m-50-75 {margin-left:50%; width:75%;}
+.m-60-75 {margin-left:60%; width:75%;}
+.m-66-75 {margin-left:$second; width:75%;}
+.m-70-75 {margin-left:70%; width:75%;}
+.m-75-75 {margin-left:75%; width:75%;}
+.m-80-75 {margin-left:80%; width:75%;}
+.m-90-75 {margin-left:90%; width:75%;}
+
+.m-10-80 {margin-left:10%; width:80%;}
+.m-20-80 {margin-left:20%; width:80%;}
+.m-25-80 {margin-left:25%; width:80%;}
+.m-30-80 {margin-left:30%; width:80%;}
+.m-33-80 {margin-left:$first; width:80%;}
+.m-40-80 {margin-left:40%; width:80%;}
+.m-50-80 {margin-left:50%; width:80%;}
+.m-60-80 {margin-left:60%; width:80%;}
+.m-66-80 {margin-left:$second; width:80%;}
+.m-70-80 {margin-left:70%; width:80%;}
+.m-75-80 {margin-left:75%; width:80%;}
+.m-80-80 {margin-left:80%; width:80%;}
+.m-90-80 {margin-left:90%; width:80%;}
+
+.m-10-90 {margin-left:10%; width:90%;}
+.m-20-90 {margin-left:20%; width:90%;}
+.m-25-90 {margin-left:25%; width:90%;}
+.m-30-90 {margin-left:30%; width:90%;}
+.m-33-90 {margin-left:$first; width:90%;}
+.m-40-90 {margin-left:40%; width:90%;}
+.m-50-90 {margin-left:50%; width:90%;}
+.m-60-90 {margin-left:60%; width:90%;}
+.m-66-90 {margin-left:$second; width:90%;}
+.m-70-90 {margin-left:70%; width:90%;}
+.m-75-90 {margin-left:75%; width:90%;}
+.m-80-90 {margin-left:80%; width:90%;}
+.m-90-90 {margin-left:90%; width:90%;}
+
+// Box-container
+.box-container {
+    width:80%;;
+}
+}
