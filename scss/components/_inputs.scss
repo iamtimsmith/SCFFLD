@@ -1,0 +1,110 @@
+input, select, textarea {
+    float:left;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    min-height:1px;
+}
+
+.button {
+    position:relative;
+    display:inline;
+    background-color:transparent;
+    border:#222 2px solid;
+    border-radius:0px;
+    padding:5px 10px;
+    height:25px;
+    width:initial;
+    text-align:center;
+    transition:all .25s ease-in-out;
+    -webkit-transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    -o-transition:all .25s ease-in-out;
+    color:#222;
+    margin:20px 0;
+    float: left;
+}
+
+.button:hover {
+    background-color:#222;
+    color:white;
+}
+
+.button * {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:100%;font-weight:400;
+}
+
+button, button:focus, button:active {
+    background:transparent;
+    border:none;
+    outline:0;
+    
+}
+
+form {
+    position:relative;
+    margin:30px 0px;
+    padding:30px 50px;
+    text-align:left!important;
+}
+
+label {
+    color:#222;
+}
+
+input {
+    margin:10px 0px;
+    padding:7.5px;
+    border:#222 1px solid;
+    border-radius:0px;
+    box-sizing:border-box;
+    width:100%;
+}
+
+input[type="checkbox"] {
+    width:20px;
+}
+
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    position:relative;
+    margin:10px 0px;
+    padding:7.5px;
+    border:#222 1px solid;
+    border-radius:0px;
+    box-sizing:border-box;
+    background:url("http://iamtimsmith.com/images/other/arrow.jpg") no-repeat;
+    background-size:13px;
+    background-position:99%;
+    width:100%;
+}
+
+textarea {
+    margin:10px 0px;
+    padding:7.5px;
+    height:150px;
+    border:#222 1px solid;
+    border-radius:0px;
+    width:100%;
+    
+}
+
+input[type="submit"] {
+    background-color:transparent;
+    border:#222 2px solid;
+    border-radius:0px;
+    transition:all .25s ease-in-out;
+    -webkit-transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    -o-transition:all .25s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color:#222;
+    color:white;
+}
