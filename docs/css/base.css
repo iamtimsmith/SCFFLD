@@ -3219,8 +3219,9 @@ form {
 .header h4 {
    }
 .header img {
-  background:none;
-  margin-bottom:100px;
+  background:none!important;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
 .footer .fa {
