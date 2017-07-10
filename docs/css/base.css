@@ -3220,7 +3220,7 @@ form {
    }
 .header img {
   background:none;
-  margin: 0 0 100px;
+  margin-bottom:100px;
 }
 
 .footer .fa {
