@@ -3217,9 +3217,10 @@ form {
   margin: 100px 0 0;
   font-size: 7rem; }
 .header h4 {
-  margin: 0 0 100px; }
+   }
 .header img {
   background:none;
+  margin: 0 0 100px;
 }
 
 .footer .fa {
