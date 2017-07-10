@@ -3218,6 +3218,9 @@ form {
   font-size: 7rem; }
 .header h4 {
   margin: 0 0 100px; }
+.header img {
+  background:none;
+}
 
 .footer .fa {
   width: 20px; }
